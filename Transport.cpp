@@ -1,26 +1,31 @@
 #include "Transport.h"
 #include "Bus.h"
 #include "Truck.h"
+#include "Car.h"
+
 Transport* Transport::In(ifstream& ifst)
 {
 	int k, error1, error2;
-	Transport* lg;
+	Transport* tr;
 	ifst >> k;
 	switch (k)
 	{
 	case 1:
-		lg = new Bus();
+		tr = new Bus();
 		break;
 	case 2:
-		lg = new Truck();
+		tr = new Truck();
+		break;
+	case 3:
+		tr = new Car();
 		break;
 	default:
 
 		ifst >> error1 >> error2;
 		return NULL;
 	}
-	lg->InData(ifst);
-	return lg;
+	tr->InData(ifst);
+	return tr;
 };
 
 void Transport::InCommon(ifstream& ifst)

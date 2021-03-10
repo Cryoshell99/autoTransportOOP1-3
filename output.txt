@@ -3,4 +3,10 @@ Container contains that elements:
 0: It is Bus : passenger capacity = 17,  Engine power: 1
 1: It is Bus : passenger capacity = 23,  Engine power: 2
 2: It is Bus : passenger capacity = 16,  Engine power: 3
-3: It is Bus : passenger capacity = 31,  Engine power: 4
+3: It is Car : max speed = 31,  Engine power: 4
+4: It is Car : max speed = 3,  Engine power: 5
+5: It is Truck : carrying capacity = 5,  Engine power: 6
+6: It is Truck : carrying capacity = 7,  Engine power: 7
+7: It is Truck : carrying capacity = 4,  Engine power: 8
+Empty container. 
+Container is empty!
