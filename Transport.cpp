@@ -34,5 +34,5 @@ void Transport::OutCommon(ofstream& ofst)
 
 float Transport::WPRatio()
 {
-	return (float)75 / (float)mData;
+	return (float)(75)/ (float)mData;
 };

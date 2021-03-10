@@ -11,5 +11,5 @@ class Transport
 		void InCommon(ifstream& ifst);
 		void OutCommon(ofstream& ofst);
 	protected:
-		short int mData;
+		int mData; // Общее свойство - мощность двигателя
 };
