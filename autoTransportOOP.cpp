@@ -17,13 +17,13 @@ int main(int argc, char* argv[])
 	ifstream ifst(argv[1]);
 	ofstream ofst(argv[2]);
 	cout << "Start" << endl;
-	Container c;
-	c.In(ifst);
+	Container ctn;
+	ctn.In(ifst);
 	ofst << "Filled container. " << endl;
-	c.Out(ofst);
-	c.Clear();
+	ctn.Out(ofst);
+	ctn.Clear();
 	ofst << "Empty container. " << endl;
-	c.Out(ofst);
+	ctn.Out(ofst);
 	cout << "Stop" << endl;
 	system("pause");
 
