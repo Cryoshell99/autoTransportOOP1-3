@@ -1,8 +1,8 @@
 #include "Truck.h"
 void Truck::InData(ifstream& ifst)
 {
-	InCommon(ifst);
 	ifst >> mAbstractDT;
+	InCommon(ifst);
 };
 void Truck::Out(ofstream& ofst)
 {
