@@ -36,3 +36,8 @@ float Transport::WPRatio()
 {
 	return (float)(75)/ (float)mData;
 };
+
+bool Transport::Compare(Transport& second)
+{
+	return WPRatio() < second.WPRatio();
+}

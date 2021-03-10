@@ -8,6 +8,7 @@ class Transport
 		virtual void InData(ifstream& ifst) = 0; // ввод
 		virtual void Out(ofstream& ofst) = 0;
 		float WPRatio();
+		bool Compare(Transport& second);
 		void InCommon(ifstream& ifst);
 		void OutCommon(ofstream& ofst);
 	protected:
