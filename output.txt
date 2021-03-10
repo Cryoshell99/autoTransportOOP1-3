@@ -1,0 +1,6 @@
+Filled container. 
+Container contains that elements:
+0: It is Bus : passenger capacity = 17,  Engine power: 1
+1: It is Bus : passenger capacity = 23,  Engine power: 2
+2: It is Bus : passenger capacity = 16,  Engine power: 3
+3: It is Bus : passenger capacity = 31,  Engine power: 4
