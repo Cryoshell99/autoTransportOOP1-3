@@ -32,3 +32,7 @@ void Transport::OutCommon(ofstream& ofst)
 	ofst << " Engine power: " << mData << endl;
 };
 
+int Transport::WPRatio()
+{
+	return 75/mData;
+};

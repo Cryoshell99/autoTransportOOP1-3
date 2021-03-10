@@ -1,6 +1,20 @@
 Filled container. 
 Container contains that elements:
 0: It is Bus : passenger capacity = 17,  Engine power: 1
+75 Weight to Power ratio
 1: It is Bus : passenger capacity = 23,  Engine power: 2
+37 Weight to Power ratio
 2: It is Bus : passenger capacity = 16,  Engine power: 3
+25 Weight to Power ratio
 3: It is Bus : passenger capacity = 31,  Engine power: 4
+18 Weight to Power ratio
+4: It is Truck : carrying capacity = 3,  Engine power: 5
+15 Weight to Power ratio
+5: It is Truck : carrying capacity = 5,  Engine power: 6
+12 Weight to Power ratio
+6: It is Truck : carrying capacity = 7,  Engine power: 7
+10 Weight to Power ratio
+7: It is Truck : carrying capacity = 4,  Engine power: 8
+9 Weight to Power ratio
+Empty container. 
+Container is empty!

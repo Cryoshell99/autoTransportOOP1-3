@@ -46,6 +46,7 @@ void Container::Out(ofstream& ofst)
 			else
 			{
 				temp->L->Out(ofst);
+				ofst << temp->L->WPRatio() << " Weight to Power ratio" << endl;
 			}
 			temp = temp->Next;
 			i++;
