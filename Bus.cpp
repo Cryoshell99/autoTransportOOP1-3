@@ -10,3 +10,8 @@ void Bus::Out(ofstream& ofst)
 		<< ", ";
 	OutCommon(ofst);
 };
+
+void Bus::OutBus(ofstream& ofst)
+{
+	Out(ofst);
+};

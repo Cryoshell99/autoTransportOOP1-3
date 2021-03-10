@@ -1,7 +1,5 @@
-﻿  Bus.cpp
-  Container.cpp
+﻿  autoTransportOOP.cpp
+  Bus.cpp
   Transport.cpp
-  Truck.cpp
-  autoTransportOOP.cpp
   Создание кода...
   autoTransportOOP.vcxproj -> D:\GitHub\autoTransportOOP\Debug\autoTransportOOP.exe

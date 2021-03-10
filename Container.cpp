@@ -70,3 +70,33 @@ void Container::Clear()
 	}
 	this->Next = nullptr;
 };
+
+void Container::OutBus(ofstream& ofst)
+{
+	if (this->Next != nullptr)
+	{
+		ofst << endl << "Only Bus transports:" << endl;
+		Container* temp;
+		temp = this;
+		int i = 0;
+		do
+		{
+			ofst << i << ": ";
+			if (temp->L == NULL)
+			{
+				ofst << "Incorrect type of transport!!!" << endl;
+			}
+			else
+			{
+				temp->L->OutBus(ofst);
+			}
+			temp = temp->Next;
+			i++;
+		} while (temp != this);
+	}
+	else
+	{
+		ofst << "Container is empty!" << endl;
+
+	}
+}; // вывод

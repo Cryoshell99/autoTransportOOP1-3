@@ -32,3 +32,7 @@ void Transport::OutCommon(ofstream& ofst)
 	ofst << " Engine power: " << mData << endl;
 };
 
+void Transport::OutBus(ofstream& ofst)
+{
+	ofst << endl; //empty line
+};
