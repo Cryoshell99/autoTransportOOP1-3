@@ -15,7 +15,6 @@ Transport* Transport::In(ifstream& ifst)
 		tr = new Truck();
 		break;
 	default:
-
 		ifst >> error1 >> error2;
 		return NULL;
 	}
