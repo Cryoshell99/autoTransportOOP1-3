@@ -10,3 +10,8 @@ void Truck::Out(ofstream& ofst)
 		<< ", ";
 	OutCommon(ofst);
 };
+
+float Truck::WPRatio()
+{
+	return (float)mAbstractDT / (float)mData;
+};

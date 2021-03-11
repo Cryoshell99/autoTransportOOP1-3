@@ -6,5 +6,6 @@ class Bus : public Transport
 public:
 	void InData(ifstream& ifst); // ввод
 	void Out(ofstream& ofst); // вывод
+	float WPRatio();
 	Bus() {} // создание без инициализации.
 };
