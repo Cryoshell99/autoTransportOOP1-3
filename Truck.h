@@ -6,5 +6,6 @@ class Truck : public Transport
 public:
 	void InData(ifstream& ifst); // ввод
 	void Out(ofstream& ofst); // вывод
+	float WPRatio();
 	Truck() {};
 };
