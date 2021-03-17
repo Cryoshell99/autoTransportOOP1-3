@@ -1,4 +1,5 @@
 #include "Truck.h"
+
 void Truck::InData(ifstream& ifst)
 {
 	ifst >> mAbstractDT;

@@ -1,6 +1,8 @@
 #pragma once
 #include <fstream>
+
 using namespace std;
+
 class Transport
 {
 	public:
@@ -11,5 +13,5 @@ class Transport
 		void OutCommon(ofstream& ofst);
 	protected:
 		int mData;
-		double  fuelConsumption;
+		double fuelConsumption;
 };

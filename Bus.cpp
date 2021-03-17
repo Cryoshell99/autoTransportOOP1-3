@@ -1,4 +1,5 @@
 #include "Bus.h"
+
 void Bus::InData(ifstream& ifst)
 {
 	ifst >> mAbstractDT;

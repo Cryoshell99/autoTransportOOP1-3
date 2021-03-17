@@ -1,8 +1,9 @@
 #include "Car.h"
+
 void Car::InData(ifstream& ifst)
 {
-	InCommon(ifst);
 	ifst >> mAbstractDT;
+	InCommon(ifst);
 };
 void Car::Out(ofstream& ofst)
 {
