@@ -40,3 +40,8 @@ bool Transport::Compare(Transport& second)
 {
 	return WPRatio() < second.WPRatio();
 }
+
+void Transport::OutBus(ofstream& ofst)
+{
+	ofst << endl; //empty line
+};
