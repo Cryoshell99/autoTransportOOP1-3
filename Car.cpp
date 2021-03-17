@@ -11,3 +11,8 @@ void Car::Out(ofstream& ofst)
 		<< ", ";
 	OutCommon(ofst);
 };
+
+float Car::WPRatio()
+{
+	return (4 * 75) / (float)mData;
+};

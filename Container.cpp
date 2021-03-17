@@ -78,9 +78,8 @@ void Container::Swap(Container* first, Container* second)
 	temp = first->L;
 	first->L = second->L;
 	second->L = temp;
-
-
 };
+
 void Container::Sort()
 {
 	//if container contains 1 element, do nothing
