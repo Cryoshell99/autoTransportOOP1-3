@@ -22,6 +22,7 @@ int main(int argc, char* argv[])
 	ofst << "Filled container. " << endl;
 	cnt.Out(ofst);
 
+	// Сортированный вывод
 	ofst << endl << endl << "Soreted container. " << endl;
 	cnt.Sort();
 	cnt.Out(ofst);

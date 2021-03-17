@@ -5,6 +5,7 @@ void Car::InData(ifstream& ifst)
 	ifst >> mAbstractDT;
 	InCommon(ifst);
 };
+
 void Car::Out(ofstream& ofst)
 {
 	ofst << "It is Car : max speed = " << mAbstractDT
@@ -14,5 +15,5 @@ void Car::Out(ofstream& ofst)
 
 float Car::WPRatio()
 {
-	return (4 * 75) / (float)mData;
+	return (float)(4 * 75) / (float)mData;
 };

@@ -34,6 +34,7 @@ void Transport::InCommon(ifstream& ifst)
 void Transport::OutCommon(ofstream& ofst)
 {
 	ofst << " Engine power: " << mData << ", Fuel consumption per 100 km = " << fuelConsumption << endl;
+	ofst << WPRatio() << " Weight to Power ratio" << endl;
 };
 
 bool Transport::Compare(Transport& second)

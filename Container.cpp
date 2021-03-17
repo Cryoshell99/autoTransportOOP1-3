@@ -1,9 +1,11 @@
 #include "Container.h"
+
 Container::Container()
 {
 	Next = this;
 	L = NULL;
 }
+
 void Container::In(ifstream& ifst)
 {
 	while (!ifst.eof())
@@ -28,6 +30,7 @@ void Container::In(ifstream& ifst)
 	}
 
 }; // ввод
+
 void Container::Out(ofstream& ofst)
 {
 	if (this->Next != nullptr)
@@ -46,7 +49,6 @@ void Container::Out(ofstream& ofst)
 			else
 			{
 				temp->L->Out(ofst);
-				ofst << temp->L->WPRatio() << " Weight to Power ratio" << endl;
 			}
 			temp = temp->Next;
 			i++;
