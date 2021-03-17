@@ -36,3 +36,7 @@ void Transport::OutCommon(ofstream& ofst)
 	ofst << " Engine power: " << mData << ", Fuel consumption per 100 km = " << fuelConsumption << endl;
 };
 
+bool Transport::Compare(Transport& second)
+{
+	return WPRatio() < second.WPRatio();
+}

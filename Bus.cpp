@@ -11,3 +11,8 @@ void Bus::Out(ofstream& ofst)
 		<< ", ";
 	OutCommon(ofst);
 };
+
+float Bus::WPRatio()
+{
+	return (float)(mAbstractDT*75) / (float)mData;
+};

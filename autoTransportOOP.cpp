@@ -21,6 +21,11 @@ int main(int argc, char* argv[])
 	cnt.In(ifst);
 	ofst << "Filled container. " << endl;
 	cnt.Out(ofst);
+
+	ofst << endl << endl << "Soreted container. " << endl;
+	cnt.Sort();
+	cnt.Out(ofst);
+
 	cnt.Clear();
 	ofst << "Empty container. " << endl;
 	cnt.Out(ofst);
