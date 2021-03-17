@@ -20,7 +20,6 @@ Transport* Transport::In(ifstream& ifst)
 		tr = new Car();
 		break;
 	default:
-
 		ifst >> error1 >> error2;
 		return NULL;
 	}
@@ -30,10 +29,10 @@ Transport* Transport::In(ifstream& ifst)
 
 void Transport::InCommon(ifstream& ifst)
 {
-	ifst >> mData;
+	ifst >> mData >> fuelConsumption;
 };
 void Transport::OutCommon(ofstream& ofst)
 {
-	ofst << " Engine power: " << mData << endl;
+	ofst << " Engine power: " << mData << ", Fuel consumption per 100 km = " << fuelConsumption << endl;
 };
 

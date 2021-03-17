@@ -1,8 +1,8 @@
 #include "Bus.h"
 void Bus::InData(ifstream& ifst)
 {
-	InCommon(ifst); 
 	ifst >> mAbstractDT;
+	InCommon(ifst);
 };
 void Bus::Out(ofstream& ofst)
 {

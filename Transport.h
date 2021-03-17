@@ -11,4 +11,5 @@ class Transport
 		void OutCommon(ofstream& ofst);
 	protected:
 		int mData;
+		double  fuelConsumption;
 };
