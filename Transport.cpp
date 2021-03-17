@@ -30,6 +30,7 @@ void Transport::InCommon(ifstream& ifst)
 void Transport::OutCommon(ofstream& ofst)
 {
 	ofst << " Engine power: " << mData << endl;
+	ofst << WPRatio() << " Weight to Power ratio" << endl;
 };
 
 
